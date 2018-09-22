@@ -6,7 +6,7 @@ const search = (array, element) => {
   for (let i = 0; i < arr.length; i += block) {
     let start = i > 0 ? i - block : i
     if (element === arr[i]) {
-      console.log(`Index of the element is: ${i}`)
+      console.log(`Index of the element: ${element} is: ${i}`)
       return i
     }
 

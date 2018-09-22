@@ -3,7 +3,7 @@
 const search = (array, element) => {
   for (let i = 0; i < array.length; i++) {
     if (element === array[i]) {
-      console.log(`Index of the element is: ${i}`)
+      console.log(`Index of the element: ${element} is: ${i}`)
       return i
     }
   }

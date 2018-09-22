@@ -10,7 +10,7 @@ const perform = (arr, start, end, elt) => {
   let middle = (end + start) / 2 | 0
 
   if (elt === arr[middle]) {
-    console.log(`Index of the element is: ${middle}`)
+    console.log(`Index of the element: ${elt} is: ${middle}`)
     return middle
   }
   if (arr[middle] < elt) {
